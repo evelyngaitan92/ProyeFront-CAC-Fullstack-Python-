@@ -74,9 +74,10 @@
 }
 
 /*Portfolio con tres columnas usando flexbox y flex wrap*/
-img {
+.fotografia img {
 	max-width: 100%;
 }
+
 
 #titulo-portfolio {
 	font-size: 3rem;
