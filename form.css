@@ -1,9 +1,10 @@
 .principal {
-	width: 95%;
-	margin: 0 auto;
-	display: flex;
-  
+  width: 95%;
+  margin: 0 auto;
+  display: flex;
+
 }
+
 .mapa {
   flex: 1;
 }
@@ -11,24 +12,24 @@
 .formulario {
   display: flex;
   flex: 1;
-	padding: 10px 20px;
+  padding: 10px 20px;
   text-align: center;
   justify-content: space-evenly;
 }
 
-.formulario > fieldset  {
- display: flex;
- flex-direction: column;
- gap: 10px;
- padding: 10px;
+.formulario>fieldset {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  padding: 10px;
 }
 
-.formulario > fieldset > .comentario {
- flex: 1;
- height: 100%;
+.formulario>fieldset>.comentario {
+  flex: 1;
+  height: 100%;
 }
 
 .error {
-color: red;
-outline: 1px solid red;
+  color: red;
+  outline: 1px solid red;
 }
