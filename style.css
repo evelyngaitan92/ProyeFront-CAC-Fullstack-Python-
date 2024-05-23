@@ -116,6 +116,18 @@
 	flex-basis: calc(33.3% - 1rem);
 }
 
+@media screen and (max-width: 800px){
+	.fotografia {
+		flex-basis: calc(50% - 1rem);
+	}
+}
+
+@media screen and (max-width: 400px){
+	.fotografia {
+		flex-basis: calc(100% - 1rem);
+	}
+}
+
 .fotografia h2,
 p {
 	font-size: 1rem;
@@ -132,6 +144,23 @@ p {
 footer{
   padding: 30px;
 } 
+
+.fotografia {
+	flex-basis: calc(33.3% - 1rem);
+}
+
+@media screen and (max-width: 800px){
+	.fotografia {
+		flex-basis: calc(50% - 1rem);
+	}
+}
+
+@media screen and (max-width: 400px){
+	.fotografia {
+		flex-basis: calc(100% - 1rem);
+	}
+}
+
 /* .texto-presentacion {
 	display: flex;
 	flex:1;
