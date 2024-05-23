@@ -129,6 +129,9 @@ p {
 	/* display: flex; */
 }
 
+footer{
+  padding: 30px;
+} 
 /* .texto-presentacion {
 	display: flex;
 	flex:1;

@@ -5,9 +5,15 @@
 
 }
 
+h1 {
+  text-align: center;
+  padding: 40px;
+}
+
 .mapa {
   flex: 1;
 }
+
 
 .formulario {
   display: flex;
